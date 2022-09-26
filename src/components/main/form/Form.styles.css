@@ -1,0 +1,89 @@
+.container-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+min-width: 370px;
+max-width: 455px;
+height: max-content;
+padding: 2.5rem 3rem;
+background: #f8f9f9;
+margin: 1.5rem 0.5rem 1rem 1rem;
+}
+
+.title-form {
+  margin-bottom: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #02363d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label-form {
+  margin-top: 1.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #02363d;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form, .select-form{
+  height: 3.125rem;
+  border: solid 1px #68737d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  padding: 0.625rem;
+  border-radius: 0.125rem;
+}
+
+.select-form{
+  font-size: 1rem;
+}
+
+.button-form{
+    height: 3.125rem;
+    margin-top: 2.25rem;
+    background: #02363d;
+    color: #ffffff;
+    border: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button-form:hover{
+    background-color: #0f5761;
+}
+
+@media screen and (min-width:768px) {
+  .container-form {
+    margin: 1.5rem 7rem 1rem 10rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-form {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .title-form {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+  }  
+  
+  .button-form{
+      font-size: 1.25rem;
+      
+  }
+
+}

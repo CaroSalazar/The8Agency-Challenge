@@ -3,7 +3,8 @@
   font-family: "Proxima Nova";
   letter-spacing: 0;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 1rem;
+  color: #405457;
 }
 
 .sponsors{
@@ -13,7 +14,7 @@
 }
 
 .informative-paragraph{
-font-size: 16px;
+font-size: 1.1rem;
 padding: 10px;
 margin: 0 1.5rem 0 2.5rem;
 }
@@ -40,9 +41,37 @@ margin: 0 1.5rem 0 2.5rem;
 }
 
 .name-specialist{
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 
+.position-specialist{
+  font-size: 1.1rem;
+}
 
+@media screen and (min-width:768px) {
+  .sponsors{
+    max-width: 700px;
+    margin: 0 3rem 0 4rem;
+}
+.informative-paragraph{
+  font-size: 20px;
+  margin: 0 1.5rem 0 2rem;
+  }
 
+  .container-specialists{
+    margin: 1rem 0 1rem 4rem;
+  }
+  
+  .name-specialist{
+    font-size: 20px;
+  }
 
+}
+
+@media screen and (min-width: 1100px) {
+  .container-info{
+    margin-top: 2rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+  }
+}

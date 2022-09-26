@@ -39,8 +39,9 @@ export const Information = () => {
         financiero en América Latina.
       </p>
       <p className="informative-paragraph">¡Te esperamos!</p>
+      <img className="sponsors" src={Group5} alt="sponsors" />
     </div>
-        <img className="sponsors" src={Group5} alt="sponsors" />
+      
         </>
   );
 };
