@@ -1,25 +1,91 @@
 import "./Form.styles.css";
+import { useFormik } from "formik";
+import validationSchema from "../validaciones/Validaciones";
 
 export const Form = () => {
+
+  const initialValues = {
+    name: "",
+    lastname: "",
+    email: "",
+    country: "",
+    phone: "",
+    position: "",
+  };
+
+  const onSubmit = (values) => {
+    localStorage.setItem('attendee', JSON.stringify(values));
+    resetForm();
+  };
+
+  const formik = useFormik({ initialValues, validationSchema, onSubmit });
+
+  const {
+    handleSubmit,
+    handleChange,
+    errors,
+    touched,
+    handleBlur,
+    values,
+    resetForm,
+  } = formik;
+
   return (
     <div className="container-form">
       <h4 className="title-form">¡Inscríbete y reserva tu lugar ahora!</h4>
-      <form className="form">
-        <label className="label-form" htmlFor="name">
-          Nombre
-          <input className="input-form" type="text" name="name" />
-        </label>
-        <label className="label-form" htmlFor="lastname">
-          Apellido
-          <input className="input-form" type="text" name="lastname" />
-        </label>
-        <label className="label-form" htmlFor="email">
-          Correo electrónico del trabajo
-          <input className="input-form" type="email" name="email" />
-        </label>
-        <label className="label-form" htmlFor="country">
-          País
-          <select className="select-form">
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="container-label-input">
+          <label htmlFor="name"> Nombre</label>
+          <input
+            type="text"
+            name="name"
+            onChange={handleChange}
+            value={values.name}
+            onBlur={handleBlur}
+            className={errors.name && touched.name ? "error" : ""}
+          />
+          {errors.name && touched.name && (
+            <span className="error-message">{errors.name}</span>
+          )}
+        </div>
+        <div className="container-label-input">
+          <label htmlFor="lastname"> Apellido</label>
+          <input
+            type="text"
+            name="lastname"
+            onChange={handleChange}
+            value={values.lastname}
+            onBlur={handleBlur}
+            className={errors.lastname && touched.lastname ? "error" : ""}
+          />
+          {errors.lastname && touched.lastname && (
+            <span className="error-message">{errors.lastname}</span>
+          )}
+        </div>
+        <div className="container-label-input">
+          <label htmlFor="email">Correo electrónico del trabajo</label>
+          <input
+            type="email"
+            name="email"
+            onChange={handleChange}
+            value={values.email}
+            onBlur={handleBlur}
+            className={errors.email && touched.email ? "error" : ""}
+          />
+          {errors.email && touched.lastname && (
+            <span className="error-message">{errors.email}</span>
+          )}
+        </div>
+        <div className="container-label-select">
+          <label htmlFor="country"> País</label>
+          <select
+            name="country"
+            onChange={handleChange}
+            value={values.country}
+            onBlur={handleBlur}
+            className={errors.country && touched.country ? "error" : ""}
+          >
+            <option value="">Elige un país</option>
             <option value="Argentina">Argentina</option>
             <option value="Bolivia">Bolivia</option>
             <option value="Brasil">Brasil</option>
@@ -35,15 +101,40 @@ export const Form = () => {
             <option value="Costa Rica">Costa Rica</option>
             <option value="Guatemala">Guatemala</option>
           </select>
-        </label>
-        <label className="label-form" htmlFor="phone">
-          Número de teléfono
-          <input className="input-form" type="number" name="phone" />
-        </label>
-        <label className="label-form" htmlFor="position">
-          Puesto de trabajo
-          <input className="input-form" type="text" name="position" />
-        </label>
+          {errors.country && touched.country && (
+            <span className="error-message">{errors.country}</span>
+          )}
+        </div>
+        <div className="container-label-input">
+          <label className="label-form" htmlFor="phone">
+            Número de teléfono
+          </label>
+          <input
+            type="number"
+            name="phone"
+            onChange={handleChange}
+            value={values.phone}
+            onBlur={handleBlur}
+            className={errors.phone && touched.phone ? "error" : ""}
+          />
+          {errors.phone && touched.phone && (
+            <span className="error-message">{errors.phone}</span>
+          )}
+        </div>
+        <div className="container-label-input">
+          <label htmlFor="position">Puesto de trabajo</label>
+          <input
+            type="text"
+            name="position"
+            onChange={handleChange}
+            value={values.position}
+            onBlur={handleBlur}
+            className={errors.position && touched.position ? "error" : ""}
+          />
+          {errors.position && touched.position && (
+            <span className="error-message">{errors.position}</span>
+          )}
+        </div>
         <button className="button-form" type="submit">
           Inscríbete
         </button>
