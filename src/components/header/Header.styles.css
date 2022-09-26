@@ -1,7 +1,8 @@
 header{
-    height: 300px;
+    height: 250px;
     background-image: url(../../assets/Group\ 4.svg);
     background-attachment: fixed;
+    width: 100%;
   }
   .container-header{
     display: flex;
@@ -10,7 +11,7 @@ header{
     align-items: center;
     text-align: center;
     color: var(--second-color);
-    padding: 2rem;  
+    padding: 1rem;  
   }
   .webinar-header{
     color: var(--white-color);

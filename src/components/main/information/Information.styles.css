@@ -1,0 +1,48 @@
+.container-info{
+  margin-top: 2rem;
+  font-family: "Proxima Nova";
+  letter-spacing: 0;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.sponsors{
+    max-width: 400px;
+    padding: 16px;
+    margin: 0 3rem 0 2rem;
+}
+
+.informative-paragraph{
+font-size: 16px;
+padding: 10px;
+margin: 0 1.5rem 0 2.5rem;
+}
+
+.container-specialists{
+  margin: 1rem 0 1rem 3.5rem;
+}
+
+.container-specialist{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 26px;
+  max-height: 110px;
+}
+
+.image-specialist{
+  max-width: 74px;
+}
+
+.info-speacialist{
+  font-family: "sharp sans"; 
+  padding: 2.5rem;
+}
+
+.name-specialist{
+  font-size: 20px;
+}
+
+
+
+
