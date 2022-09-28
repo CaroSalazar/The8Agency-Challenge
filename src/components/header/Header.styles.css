@@ -90,7 +90,7 @@ header {
 
 /* Medida Desktop */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1180px) {
   .container-header {
     padding: 2.5rem;
   }

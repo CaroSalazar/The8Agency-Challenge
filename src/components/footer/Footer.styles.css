@@ -54,7 +54,7 @@ footer {
   }
 
   .copyright-footer {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .social-networks-footer {
@@ -76,7 +76,7 @@ footer {
 
 /* Medida Desktop */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1180px) {
 
   .container-footer {
     margin: 1rem 0 1rem 0;
