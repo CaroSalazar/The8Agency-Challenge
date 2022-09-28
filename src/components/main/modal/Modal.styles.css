@@ -1,77 +1,87 @@
 /* Medida Mobile 400 x 626 */
 
 .container-modal {
-    width: 70%;
-    height: 35%;
-    background: #FFFFFF;  
-    margin: 0 0 0 2.5rem;
-    position: fixed;
-    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+  width: 70%;
+  height: 35%;
+  background: #ffffff;
+  margin-left: 2.5rem;
+  position: fixed;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
     0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.icon-modal {
+  margin: 1rem 0 0 8rem;
+  font-size: 1rem;
+}
+
+.title-modal {
+  font-family: "SharpSansNo1-Semibold";
+  font-size: 1.3rem;
+  text-align: center;
+  color: #02353c;
+  margin-top: 1rem;
+}
+.text-modal {
+  color: #021700;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* Medida Mobile 768 x 1024 */
+
+@media screen and (min-width: 768px) {
+  .container-modal {
+    width: 65%;
+    height: 30%;
+    margin-left: 8.3rem;
   }
-  
+
   .icon-modal {
-    margin: 1rem 0 0 8rem;
-    font-size: 1rem;
+    margin: 1rem 0 0 14.2rem;
+    font-size: 1.5rem;
   }
 
   .title-modal {
-    font-family: "SharpSansNo1-Semibold";
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+  }
+  .text-modal {
     font-size: 1.3rem;
+    padding: 1.7rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-modal {
+    width: 500px;
+    height: 300px;
+    background: #ffffff;
+    margin: 30px 0px 0px 500px;
+    position: fixed;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .icon-modal {
+    margin: 1rem 0rem 0 14rem;
+    font-size: 1.5rem;
+  }
+  .title-modal {
+    font-family: "SharpSansNo1-Semibold";
+    font-size: 30px;
     text-align: center;
     color: #02353c;
-    margin-top: 1rem;
+    padding-right: 2rem;
+    margin-top: 2.5rem;
   }
   .text-modal {
     color: #021700;
     text-align: center;
-    font-size: 1rem;
-    padding: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 18px;
+    padding: 2rem;
   }
-
-  @media screen and (min-width:768px) {
-    .container-modal {
-      width: 350px;
-      height: 250px; 
-      margin: 0px 0px 0px 70px;
-    }
-  };
-
-  @media screen and (min-width: 1100px) {
-    .container-modal {
-        width: 500px;
-        height: 300px;
-        background: #FFFFFF;  
-        margin:  30px 0px 0px 500px;
-        position: fixed;
-        box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
-        0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
-      }
-      
-      .icon-modal {
-        margin: 1rem 0rem 0 14rem;
-        font-size: 1.5rem;
-      }
-      .title-modal {
-        font-family: "SharpSansNo1-Semibold";
-        font-size: 30px;
-        text-align: center;
-        color: #02353c;
-        padding-right: 2rem;
-        margin-top: 2.5rem;
-      }
-      .text-modal {
-        color: #021700;
-        text-align: center;
-        font-size: 18px;
-        padding: 2rem;
-      }
-      
-  };
-
-
-
-
-
-
+} ;

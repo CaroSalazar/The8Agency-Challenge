@@ -1,75 +1,95 @@
 /* Medida Mobile 400 x 626 */
 
-.container-info{
+.container-info {
   margin-top: 1rem;
   font-family: "Proxima Nova";
   line-height: 1.6rem;
   color: #405457;
 }
 
-.sponsors{
-    max-width: 22rem;
-    padding: 0.7rem;
-    margin: 0 1rem 0 0.2rem;
+.sponsors {
+  max-width: 22rem;
+  padding: 0.7rem;
+  margin: 0 1rem 0 0.2rem;
 }
 
-.informative-paragraph{
-font-size: 0.9rem;
-padding: 0.2rem;
-margin: 0.6rem 2.9rem 0 1rem;
+.informative-paragraph {
+  font-size: 0.9rem;
+  padding: 0.2rem;
+  margin: 0.6rem 2.9rem 0 1rem;
 }
 
-.container-specialists{
+.container-specialists {
   margin: 1rem 0 1rem 1rem;
 }
 
-.container-specialist{
+.container-specialist {
   display: flex;
   flex-direction: row;
   align-items: center;
-  line-height: 1.6rem;
   max-height: 5rem;
 }
 
-.image-specialist{
+.image-specialist {
   max-width: 16%;
 }
 
-.info-speacialist{
-  font-family: "sharp sans"; 
+.info-speacialist {
+  font-family: "sharp sans";
   padding: 2.5rem;
 }
 
-.name-specialist{
+.name-specialist {
   font-size: 1.1rem;
 }
 
-.position-specialist{
+.position-specialist {
   font-size: 0.9rem;
 }
 
-@media screen and (min-width:768px) {
-  .sponsors{
-    max-width: 700px;
-    margin: 0 3rem 0 4rem;
-}
-.informative-paragraph{
-  font-size: 20px;
-  margin: 0 1.5rem 0 2rem;
-  }
+/* Medida Mobile 768 x 1024 */
 
-  .container-specialists{
-    margin: 1rem 0 1rem 4rem;
+@media screen and (min-width: 768px) {
+  
+  .sponsors {
+    max-width: 40rem;
+    margin-left: 4rem;
   }
   
-  .name-specialist{
-    font-size: 20px;
+  .informative-paragraph {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.4rem 3rem 0 3rem;
   }
-
+  
+  .container-specialists {
+    margin: 3rem 3rem 1rem 3rem;
+  }
+  
+  .container-specialist {
+    max-height: 5rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .image-specialist {
+    max-width: 15%;
+  }
+  
+  .info-speacialist {
+    padding: 2.5rem;
+  }
+  
+  .name-specialist {
+    font-size: 1.5rem;
+  }
+  
+  .position-specialist {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 1100px) {
-  .container-info{
+  .container-info {
     margin-top: 2rem;
     margin-left: 6rem;
     font-size: 1rem;

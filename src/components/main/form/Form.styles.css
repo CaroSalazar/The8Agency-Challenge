@@ -69,9 +69,43 @@ select{
     background-color: #0f5761;
 }
 
+/* Medida Mobile 768 x 1024 */
+
 @media screen and (min-width:768px) {
+
   .container-form {
-    margin: 1.5rem 7rem 1rem 10rem;
+    padding: 3rem 2rem;
+    margin: 1rem 4.5rem 1rem 6rem;
+    width: 75%;
+    }
+    
+    .title-form {
+      font-size: 1.5rem;
+    }
+    
+    .container-label-input, .container-label-select{
+      margin-top: 1.6rem;
+      font-size: 1.2rem;
+    }
+    
+    input, select{
+      height: 3.2rem;
+      font-size: 1.2rem;
+      padding: 0rem 2rem;
+    }
+    
+    .error-message {
+       font-size: 1.1rem;
+    }
+    
+    select{
+      font-size: 1.2rem;
+    }
+    
+    .button-form{
+        height: 3rem;
+        margin-top: 2rem;
+        font-size: 1.3rem;
     }
 }
 

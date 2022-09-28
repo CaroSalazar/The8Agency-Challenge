@@ -26,6 +26,7 @@ header {
   letter-spacing: 0.9px;
   border-radius: 4px;
 }
+
 .title1-header {
   font-size: 1.4rem;
   font-weight: bold;
@@ -46,21 +47,31 @@ header {
   line-height: 25px;
 }
 
+/* Medida Mobile 768 x 1024 */
+
 @media screen and (min-width: 768px) {
-  header {
-    height: 270px;
+
+  .container-header {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .webinar-header {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
   }
 
   .title1-header {
-    font-size: 30px;
+    font-size: 2rem;
   }
 
   .title2-header {
-    font-size: 28px;
+    font-size: 1.8rem;
   }
 
   .title3-header {
-    font-size: 13px;
+    font-size: 1rem;
   }
 }
 

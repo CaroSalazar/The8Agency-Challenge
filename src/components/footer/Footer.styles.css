@@ -1,49 +1,71 @@
 /* Medida Mobile 400 x 626 */
 
 footer {
-    margin: 1rem 8rem 0 6rem;
+  margin: 1rem 8rem 0 6rem;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Proxima Nova";
+}
+
+.social-networks-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  transform: scale(0.8);
+  margin-top: 0.2rem;
+}
+
+.social-networks-footer img {
+  filter: opacity(0.2) drop-shadow(0 0 0 var(--gray-light-color));
+  cursor: pointer;
+  width: 45px;
+}
+.social-networks-footer img:hover {
+  filter: opacity(0.9) drop-shadow(0 0 0 var(--gray-light-color));
+  width: 50px;
+  transition: var(--transition);
+  transform: scale(1.2);
+}
+
+.hr-footer {
+  border: 1px solid var(--gray-color);
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+/* Medida Mobile 768 x 1024 */
+
+@media screen and (min-width: 768px) {
+  footer {
+    margin: 1rem 3rem 1rem 5rem;
   }
-  
-  .container-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Proxima Nova';
-  }
-  
-  .social-networks-footer{
-    display: flex;
+
+  .container-footer {
     flex-direction: row;
-    gap: 0.5rem; 
-    transform: scale(0.8);
-    margin-top: 0.2rem;
   }
-  
+
+  .copyright-footer {
+    font-size: 1.7rem;
+  }
+
+  .social-networks-footer {
+    transform: scale(1);
+    margin: 0.5rem 0rem 1rem 0rem;
+  }
+
   .social-networks-footer img {
-    filter: opacity(0.2) drop-shadow(0 0 0 var(--gray-light-color));
-    cursor: pointer;
-    width: 45px;
+    width: 50px;
   }
   .social-networks-footer img:hover {
-    filter: opacity(0.9) drop-shadow(0 0 0 var(--gray-light-color));
-    width: 50px;
-    transition: var(--transition);
-    transform: scale(1.2);
-    
+    width: 60px;
   }
-  
-  .hr-footer{
-    border: 1px solid var(--gray-color);
-    margin-bottom: 1rem;
-    opacity: 0.6;
-  }
-  
-  
-  @media screen and (min-width:768px) { 
-    .container-footer{
-    flex-direction: row;
-    gap: 2rem;
-    }; 
-  };
 
+  .hr-footer {
+    margin-bottom: 2rem;
+  }
+} ;
