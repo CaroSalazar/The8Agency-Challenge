@@ -1,7 +1,7 @@
 {
   "name": "the8agency-challenge",
   "version": "0.1.0",
-  "homepage": "https://CaroSalazar.github.io/the8agency-challenge",
+  "homepage": "https://CaroSalazar.github.io/The8Agency-Challenge",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
