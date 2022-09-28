@@ -16,18 +16,16 @@
     --gray-light-color: #f3f3f3;
     --gray-color: #ccc;
     --black-color: #000;
-    --max-width: 1200px;
-    --transition: all 400ms ease;
-
+    margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 body {
   margin: 0;
   font-family: 'SharpSansNo1-Bold';
-  font-size: 30px;
   color: #000;
 }

@@ -1,38 +1,38 @@
+/* Medida Mobile 400 x 626 */
+
 .container-info{
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: "Proxima Nova";
-  letter-spacing: 0;
-  line-height: 28px;
-  font-size: 1rem;
+  line-height: 1.6rem;
   color: #405457;
 }
 
 .sponsors{
-    max-width: 400px;
-    padding: 16px;
-    margin: 0 3rem 0 2rem;
+    max-width: 22rem;
+    padding: 0.7rem;
+    margin: 0 1rem 0 0.2rem;
 }
 
 .informative-paragraph{
-font-size: 1.1rem;
-padding: 10px;
-margin: 0 1.5rem 0 2.5rem;
+font-size: 0.9rem;
+padding: 0.2rem;
+margin: 0.6rem 2.9rem 0 1rem;
 }
 
 .container-specialists{
-  margin: 1rem 0 1rem 3.5rem;
+  margin: 1rem 0 1rem 1rem;
 }
 
 .container-specialist{
   display: flex;
   flex-direction: row;
   align-items: center;
-  line-height: 26px;
-  max-height: 110px;
+  line-height: 1.6rem;
+  max-height: 5rem;
 }
 
 .image-specialist{
-  max-width: 74px;
+  max-width: 16%;
 }
 
 .info-speacialist{
@@ -41,11 +41,11 @@ margin: 0 1.5rem 0 2.5rem;
 }
 
 .name-specialist{
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .position-specialist{
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width:768px) {

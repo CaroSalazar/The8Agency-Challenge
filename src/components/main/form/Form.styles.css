@@ -1,20 +1,20 @@
+/* Medida Mobile 400 x 626 */
+
 .container-form {
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 100%;
-min-width: 370px;
-max-width: 455px;
+width: 80%;
 height: max-content;
-padding: 2.5rem 3rem;
+padding: 2rem 1.5rem;
 background: #f8f9f9;
-margin: 1.5rem 0.5rem 1rem 1rem;
+margin: 1rem 0rem 1rem 1rem;
 }
 
 .title-form {
-  margin-bottom: 1rem;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  text-align: center;
   font-weight: 600;
   color: #02363d;
 }
@@ -22,26 +22,24 @@ margin: 1.5rem 0.5rem 1rem 1rem;
 .form {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .container-label-input, .container-label-select{
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 520;
   color: #02363d;
   display: flex;
   flex-direction: column;
 }
 
 input, select{
-  height: 3.125rem;
+  height: 2.6rem;
   border: solid 1px #68737d;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.25rem;
-  padding: 0.625rem;
-  border-radius: 0.125rem;
+  font-size: 0.9rem;
+  padding: 0.6rem;
+  border-radius: 0.1rem;
 }
 
 input.error, select.error{
@@ -50,21 +48,19 @@ input.error, select.error{
 
 .error-message {
    color: red;
-   font-size: 14px;
+   font-size: 0.8rem;
 }
 
 select{
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .button-form{
-    height: 3.125rem;
-    margin-top: 2.25rem;
+    height: 2.8rem;
+    margin-top: 2rem;
     background: #02363d;
     color: #ffffff;
-    border: none;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
 }

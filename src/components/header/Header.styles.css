@@ -1,81 +1,80 @@
-header{
-    height: 250px;
-    background-image: url(../../assets/Group\ 4.svg);
-    background-attachment: fixed;
-    width: 100%;
+/* Medida Mobile 400 x 626 */
+
+header {
+  background-image: url(../../assets/Group\ 4.svg);
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--second-color);
+  padding: 0.7rem;
+  margin-right: 2rem;
+}
+
+.webinar-header {
+  color: var(--white-color);
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background: var(--third-color);
+  font-weight: 600;
+  margin: 1.5rem 0rem 1rem 0rem;
+  letter-spacing: 0.9px;
+  border-radius: 4px;
+}
+.title1-header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+.title2-header {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.title3-header {
+  font-weight: 550;
+  font-size: 0.6rem;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 270px;
   }
-  .container-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: var(--second-color);
-    padding: 1rem;  
+
+  .title1-header {
+    font-size: 30px;
   }
-  .webinar-header{
-    color: var(--white-color);
-    padding: 0.4rem 1em;
-    font-size: 13px;
-    text-transform: uppercase;
-    background: var(--third-color);
-    font-weight: 600;
-    margin: 1.5rem;
-    letter-spacing: 0.93px;
-    line-height: 15px;
-    border-radius: 4px;
-   }
-   .title1-header{
+
+  .title2-header {
     font-size: 28px;
-    font-weight: bold;
-    line-height: 30px
   }
-  .title2-header{
-    font-size: 22px;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 3px;
+
+  .title3-header {
+    font-size: 13px;
   }
-  .title3-header{
-    font-weight: 550;
-    font-size: 11px;
-    line-height: 40px;
-    text-transform: uppercase;
-    margin-top: 10px;
-    line-height: 25px
-  
+}
+
+@media screen and (min-width: 1100px) {
+  .title1-header {
+    font-size: 40px;
+    line-height: 52px;
   }
-  
-    @media screen and (min-width:768px) {
-      header{
-        height: 270px;
-      }
-  
-       .title1-header{
-        font-size: 30px;
-      }
-  
-      .title2-header{
-        font-size: 28px;
-      }
-  
-      .title3-header{
-        font-size: 13px;
-      }
-    }
-  
-    @media screen and (min-width: 1100px) {
-      
-      .title1-header{
-        font-size: 40px;
-        line-height: 52px
-      }
-      
-      .title2-header{
-         font-size: 35px;
-      }
-      
-      .title3-header{
-        font-size: 17px;
-      }
-    }
+
+  .title2-header {
+    font-size: 35px;
+  }
+
+  .title3-header {
+    font-size: 17px;
+  }
+}
