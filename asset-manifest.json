@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the8agency-challenge/static/css/main.753f1b5b.css",
-    "main.js": "/the8agency-challenge/static/js/main.75c37e38.js",
-    "static/media/Group 5.jpg": "/the8agency-challenge/static/media/Group 5.d956b3dc8d29c07740bc.jpg",
-    "static/media/Group 4.svg": "/the8agency-challenge/static/media/Group 4.1b85305b5526cb6c3964.svg",
-    "index.html": "/the8agency-challenge/index.html",
-    "main.753f1b5b.css.map": "/the8agency-challenge/static/css/main.753f1b5b.css.map",
-    "main.75c37e38.js.map": "/the8agency-challenge/static/js/main.75c37e38.js.map"
+    "main.css": "/The8Agency-Challenge/static/css/main.6c734c44.css",
+    "main.js": "/The8Agency-Challenge/static/js/main.d59a658a.js",
+    "static/media/Group 5.jpg": "/The8Agency-Challenge/static/media/Group 5.d956b3dc8d29c07740bc.jpg",
+    "static/media/Group 4.svg": "/The8Agency-Challenge/static/media/Group 4.1b85305b5526cb6c3964.svg",
+    "index.html": "/The8Agency-Challenge/index.html",
+    "main.6c734c44.css.map": "/The8Agency-Challenge/static/css/main.6c734c44.css.map",
+    "main.d59a658a.js.map": "/The8Agency-Challenge/static/js/main.d59a658a.js.map"
   },
   "entrypoints": [
-    "static/css/main.753f1b5b.css",
-    "static/js/main.75c37e38.js"
+    "static/css/main.6c734c44.css",
+    "static/js/main.d59a658a.js"
   ]
 }
