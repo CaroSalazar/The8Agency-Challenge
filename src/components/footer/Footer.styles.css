@@ -1,7 +1,9 @@
 /* Medida Mobile 400 x 626 */
 
 footer {
-  margin: 1rem 8rem 0 6rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  background-color: #f8f9f9;
 }
 
 .container-footer {
@@ -10,6 +12,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-family: "Proxima Nova";
+
 }
 
 .social-networks-footer {
@@ -38,11 +41,12 @@ footer {
   opacity: 0.6;
 }
 
-/* Medida Mobile 768 x 1024 */
+/* Medida Tablet 768 x 1024 */
 
 @media screen and (min-width: 768px) {
   footer {
-    margin: 1rem 3rem 1rem 5rem;
+    margin: 2rem 0;
+    padding: 1rem 1rem 0rem 1rem;
   }
 
   .container-footer {
@@ -68,4 +72,27 @@ footer {
   .hr-footer {
     margin-bottom: 2rem;
   }
-} ;
+}
+
+/* Medida Desktop */
+
+@media screen and (min-width: 1100px) {
+
+  .container-footer {
+    margin: 1rem 0 1rem 0;
+    padding: 0 6rem;
+  }
+
+  .copyright-footer {
+    font-size: 1.2rem;
+  }
+
+  .social-networks-footer {
+    transform: scale(0.9);
+  }
+
+  .hr-footer {
+    margin: 0rem 0rem 0rem 5rem;
+    width: 90%;
+  }
+}

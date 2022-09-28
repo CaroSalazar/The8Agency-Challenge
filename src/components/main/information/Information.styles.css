@@ -10,17 +10,17 @@
 .sponsors {
   max-width: 22rem;
   padding: 0.7rem;
-  margin: 0 1rem 0 0.2rem;
+  margin: 0 1.1rem 0 1.1rem;
 }
 
 .informative-paragraph {
   font-size: 0.9rem;
   padding: 0.2rem;
-  margin: 0.6rem 2.9rem 0 1rem;
+  margin: 0.6rem 1.5rem 0 1.5rem;
 }
 
 .container-specialists {
-  margin: 1rem 0 1rem 1rem;
+  margin: 1rem 0rem 1rem 2rem;
 }
 
 .container-specialist {
@@ -41,13 +41,14 @@
 
 .name-specialist {
   font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .position-specialist {
   font-size: 0.9rem;
 }
 
-/* Medida Mobile 768 x 1024 */
+/* Medida Tablet 768 x 1024 */
 
 @media screen and (min-width: 768px) {
   
@@ -72,7 +73,7 @@
   }
   
   .image-specialist {
-    max-width: 15%;
+    max-width: 12%;
   }
   
   .info-speacialist {
@@ -88,10 +89,41 @@
   }
 }
 
+/* Medida Desktop */
+
 @media screen and (min-width: 1100px) {
+
   .container-info {
-    margin-top: 2rem;
-    margin-left: 6rem;
-    font-size: 1rem;
+    margin-top: 5rem;
+  }
+
+  .sponsors {
+    margin-left: 7rem;
+  }
+  
+  .informative-paragraph {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin: 0.4rem 4rem 0 7rem;
+  }
+  
+  .container-specialists {
+    margin: 2rem 2rem 2rem 8rem;
+  }
+  
+  .container-specialist {
+    margin-bottom: 2.1rem;
+  }
+  
+  .image-specialist {
+    max-width: 13%;
+  }
+  
+  .name-specialist {
+    font-size: 1.2rem;
+  }
+  
+  .position-specialist {
+    font-size: 1.1rem;
   }
 }

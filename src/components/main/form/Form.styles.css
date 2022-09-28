@@ -8,7 +8,7 @@ width: 80%;
 height: max-content;
 padding: 2rem 1.5rem;
 background: #f8f9f9;
-margin: 1rem 0rem 1rem 1rem;
+margin: 1rem 1rem 1rem 2.5rem;
 }
 
 .title-form {
@@ -69,7 +69,7 @@ select{
     background-color: #0f5761;
 }
 
-/* Medida Mobile 768 x 1024 */
+/* Medida Tablet 768 x 1024 */
 
 @media screen and (min-width:768px) {
 
@@ -80,6 +80,7 @@ select{
     }
     
     .title-form {
+      margin-top: 1rem;
       font-size: 1.5rem;
     }
     
@@ -106,22 +107,47 @@ select{
         height: 3rem;
         margin-top: 2rem;
         font-size: 1.3rem;
+        margin-bottom: 3rem;
     }
 }
 
+/* Medida Desktop */
+
 @media screen and (min-width: 1100px) {
   .container-form {
-    margin: 3rem 5rem 0 2rem;
-  }
-  
-  .title-form {
-    margin-bottom: 1.5rem;
-    font-size: 1.25rem;
-  }  
-  
-  .button-form{
-      font-size: 1.25rem;
-      
-  }
-
+    width: 52%;
+    padding: 2rem 1.5rem;
+    margin: 5rem 8rem 2rem 1rem;
+    }
+    
+    .title-form {
+      font-size: 1.3rem;
+    }
+    
+    .container-label-input, .container-label-select{
+      margin-top: 1.2rem;
+      font-size: 0.9rem;
+      font-weight: 550;
+    }
+    
+    input, select{
+      height: 3rem;
+      font-size: 0.9rem;
+      padding: 0 11rem 0 1rem;
+    }
+    
+    .error-message {
+       font-size: 0.8rem;
+       margin-top: 0.3rem;
+    }
+    
+    select{
+      font-size: 0.9rem;
+    }
+    
+    .button-form{
+        height: 3rem;
+        font-weight: 530;
+        font-size: 1.2rem;
+    }
 }

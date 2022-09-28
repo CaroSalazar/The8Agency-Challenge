@@ -30,7 +30,7 @@
   line-height: 1.5rem;
 }
 
-/* Medida Mobile 768 x 1024 */
+/* Medida Tablet 768 x 1024 */
 
 @media screen and (min-width: 768px) {
   .container-modal {
@@ -55,33 +55,27 @@
   }
 }
 
+/* Medida Desktop */
+
 @media screen and (min-width: 1100px) {
   .container-modal {
-    width: 500px;
-    height: 300px;
-    background: #ffffff;
-    margin: 30px 0px 0px 500px;
-    position: fixed;
-    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
-      0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    width: 40%;
+    height: 50%;
+    margin-left: 30rem;
   }
 
   .icon-modal {
-    margin: 1rem 0rem 0 14rem;
-    font-size: 1.5rem;
+    margin: 1rem 0 0 18rem;
+    font-size: 1.2rem;
   }
+
   .title-modal {
-    font-family: "SharpSansNo1-Semibold";
-    font-size: 30px;
-    text-align: center;
-    color: #02353c;
-    padding-right: 2rem;
-    margin-top: 2.5rem;
+    font-size: 2rem;
+    margin-top: 3.5rem;
   }
   .text-modal {
-    color: #021700;
-    text-align: center;
-    font-size: 18px;
-    padding: 2rem;
+    font-size: 1.3rem;
+    padding: 1.7rem;
+    line-height: 2rem;
   }
 } ;
