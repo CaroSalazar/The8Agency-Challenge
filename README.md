@@ -17,3 +17,17 @@ Se desarrollo un sitio web para realizar un seguimiento de los asistentes a un e
 
 Se utilizo Formik y Yup para validar campos obligatorios, CSS para los estilos y localStorage para guardar los asistentes al evento. 
 
+### ejecución
+
+# clonar el repositorio en tu computadora
+git clone https://github.com/CaroSalazar/The8Agency-Challenge
+
+# ingresar al directorio del proyecto
+cd the8agency-challenge
+
+# instalar las dependencias
+npm install
+
+#  correr el proyecto
+npm start
+

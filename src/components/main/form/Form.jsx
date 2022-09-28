@@ -16,24 +16,13 @@ export const Form = () => {
     position: "",
   };
 
-  // let attendees = [
-  //   {
-  //     name: "carolina",
-  //     lastname: "salazar",
-  //     email: "correo@correo.com",
-  //     country: "Argentina",
-  //     phone: "123456",
-  //     position: "developer",
-  //   },
-  // ];
-
   const onSubmit = (values) => {
     resetForm();
     setShow(true);
-    let attendees = JSON.parse(localStorage.getItem("data")) || [];
+    let attendees = JSON.parse(localStorage.getItem("attendees")) || [];
     attendees.push(values);
     let attendee = JSON.stringify(attendees);
-    localStorage.setItem("data", attendee);
+    localStorage.setItem("attendees", attendee);
   };
 
   const formik = useFormik({ initialValues, validationSchema, onSubmit });
